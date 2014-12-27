@@ -1,4 +1,4 @@
-function registerController($scope) {
+pkg.controller.register = function($scope) {
 	$scope.login = function() {
 		console.log("Hello World");
 	}

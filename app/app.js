@@ -1,5 +1,5 @@
 var app = angular
 	.module("register", [])
-	.factory("languageService", languageService)
-	.controller("registerController", registerController)
-	.controller("languageController", languageController);
+	.factory("languageService", pkg.service.language)
+	.controller("registerController", pkg.controller.register)
+	.controller("languageController", pkg.controller.language);
