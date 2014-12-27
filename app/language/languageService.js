@@ -1,7 +1,11 @@
-pkg.service.language = function() {
-	var service = {};
+(function() {
+	"use strict";
 
-	service.message = "Happy New Year";
+	pkg.service.language = function() {
+		var service = {};
 
-	return service;
-}
+		service.message = "Happy New Year";
+
+		return service;
+	}
+})();
