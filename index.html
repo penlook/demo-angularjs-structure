@@ -5,9 +5,9 @@
 </head>
 <body>
 	<div ng-controller="registerController">
-		<input type="text" ng-model="username" />
+		<input type="text" ng-model="userName" />
 		<input type="password" ng-model="password" />
-		<input type="password" ng-model="confirm_password" />
+		<input type="password" ng-model="confirmPassword" />
 		<button type="button" ng-click="login()">Login</button>
 	</div>
 
@@ -17,8 +17,11 @@
 
 	<script src="lib/angular.js"></script>
 
+	<script src="app/language/languageService.js"></script>
+
 	<script src="app/language/languageController.js"></script>
 	<script src="app/register/registerController.js"></script>
+
 	<script src="app/app.js"></script>
 </body>
 </html>

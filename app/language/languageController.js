@@ -1,5 +1,5 @@
-function languageController($scope) {
+function languageController($scope, languageService) {
 	$scope.sendMessage = function() {
-		console.log("Merry Christmas!");
+		console.log(languageService.message);
 	}
 }
