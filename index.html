@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="register">
+<head>
+	<title>Demo Client Structure with AngularJS</title>
+</head>
+<body>
+	<div ng-controller="registerController">
+		<input type="text" ng-model="username" />
+		<input type="password" ng-model="password" />
+		<input type="password" ng-model="confirm_password" />
+		<button type="button" ng-click="login()">Login</button>
+	</div>
+
+	<div ng-controller="languageController">
+		<button type="button" ng-click="sendMessage()">Send Message</button>
+	</div>
+
+	<script src="lib/angular.js"></script>
+
+	<script src="app/language/languageController.js"></script>
+	<script src="app/register/registerController.js"></script>
+	<script src="app/app.js"></script>
+</body>
+</html>
